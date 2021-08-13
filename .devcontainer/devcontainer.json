@@ -1,0 +1,14 @@
+{
+  "name": "node",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "vscode",
+  "extensions": [
+    "dbaeumer.vscode-eslint",
+    "editorconfig.editorconfig",
+    "stylelint.vscode-stylelint",
+    "JuanBlanco.solidity",
+  ],
+  "remoteUser": "node",
+  // "postCreateCommand": "npm install",
+  "workspaceFolder": "/home/node/workspace"
+}
